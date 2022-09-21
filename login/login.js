@@ -1,5 +1,5 @@
 var email = document.getElementById('usuario')
-            var password = document.getElementById('password');
+var password = document.getElementById('password');
             email.addEventListener('focus',()=>{
                 email.style.borderColor = "#4A5F6A";
             });

@@ -19,12 +19,17 @@ form h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .coluna{
-    width: 80px !important;
-    height: 20px;
+    width: 20% !important;
+    height: 45px;
     border: 1px solid #ccc;
     padding-left: 10px;
     margin: 10px 0;
 }
+.vazio{
+    width: 4px;
+    height: 45px;
+}
+
 form input[type=text],
 form input[type=password]{
     width: 100%;
@@ -66,5 +71,5 @@ form input[type=password]:focus{
 .teste{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
