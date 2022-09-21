@@ -3,7 +3,7 @@ var password = document.getElementById('password');
 var confirmPassword = document.getElementById('confirmPassword')
 var nomePessoa = document.getElementById('nomePessoa')
 var idadePessoa = document.getElementById('idadePessoa')
-var ruaPessoa = document.getElementById('ruaPessoa')
+var enderecoPessoa = document.getElementById('endecoPessoa')
             usuario.addEventListener('focus',()=>{
                 usuario.style.borderColor = "#4A5F6A";
             });
@@ -32,6 +32,12 @@ var ruaPessoa = document.getElementById('ruaPessoa')
                 idadePessoa.style.borderColor = "#4A5F6A";
             });
             idadePessoa.addEventListener('blur',()=>{
+                idadePessoa.style.borderColor = "#ccc";
+            });
+            enderecoPessoa.addEventListener('focus',()=>{
+                idadePessoa.style.borderColor = "#4A5F6A";
+            });
+            enderecoPessoa.addEventListener('blur',()=>{
                 idadePessoa.style.borderColor = "#ccc";
             });
             
